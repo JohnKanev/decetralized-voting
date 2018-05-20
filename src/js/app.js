@@ -1,13 +1,16 @@
-const EmptyIndicator = () => `<tr id='empty'>
-<td class="mdl-data-table__cell--non-numeric">No votes</td>
-<td class="mdl-data-table__cell--non-numeric">please vote</td>
-</tr>`
+const EmptyIndicator = () => `
+  <tr id='empty'>
+    <td class="mdl-data-table__cell--non-numeric">No votes</td>
+    <td class="mdl-data-table__cell--non-numeric">please vote</td>
+  </tr>
+`
 
 const Item = ({ id, name, votes }) => `
-<tr id='brand${id}'>
-<td class="mdl-data-table__cell--non-numeric">${name}</td>
-<td id='#brand1'>${votes}</td>
-</tr>`
+  <tr id='brand${id}'>
+    <td class="mdl-data-table__cell--non-numeric">${name}</td>
+    <td id='#brand1'>${votes}</td>
+  </tr>
+`
 
 const App = {
   web3Provider: null,
