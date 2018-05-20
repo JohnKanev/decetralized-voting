@@ -20,3 +20,6 @@ You can use either npm or yarn for this process.
 2.  Open Ganache.
 3.  Run `truffle migrate --compile-all --reset --network ganache` to send the contract to the Ganache private blockchain.
 4.  Run `yarn run dev` to open the web app.
+
+### App screenshot
+  ![alt text](https://i.imgur.com/uH5VzuO.png)
